@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,14 +9,8 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="1592dp"
-        android:layout_height="2056dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.476"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.425"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         app:srcCompat="@drawable/black_smooth_textured_paper_background" />
 
     <TextView
@@ -23,34 +18,17 @@
         android:layout_width="374dp"
         android:layout_height="53dp"
         android:fontFamily="@font/montserrat_alternates"
-        android:text="Where do                                              you want to travel ?"
+        android:text="Where do                                                you want to travel ?"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.589"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.109" />
 
-    <EditText
-        android:id="@+id/ed_search_dashbord"
-        android:layout_width="280dp"
-        android:layout_height="44dp"
-        android:backgroundTint="#20293a"
-        android:ems="10"
-        android:fontFamily="@font/montserrat_alternates"
-        android:inputType="textPersonName"
-        android:outlineProvider="none"
-        android:text="indonesia ball beach"
-        android:textColor="#ffffff"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.32"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.231" />
 
     <ImageView
         android:id="@+id/imageViewSearch"
@@ -82,8 +60,9 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/categories_recyclerView"
-        android:layout_width="410dp"
-        android:layout_height="53dp"
+        android:layout_width="404dp"
+        android:layout_height="63dp"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -95,17 +74,19 @@
         android:id="@+id/destination_recyclerView"
         android:layout_width="410dp"
         android:layout_height="286dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginEnd="1dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.764" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <ImageButton
         android:id="@+id/imageButton_menu"
-        android:layout_width="39dp"
-        android:layout_height="42dp"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
         android:backgroundTint="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -114,6 +95,21 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.023"
         app:srcCompat="@android:drawable/ic_menu_sort_by_size"
-        app:tint="#ffffff" />
+        app:tint="#ffffff"
+        tools:ignore="SpeakableTextPresentCheck" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.164"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.234" />
+
+</androidx.appcompat.widget.LinearLayoutCompat

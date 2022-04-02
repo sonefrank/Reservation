@@ -21,7 +21,7 @@ class Categories {
         return nameCategories
     }
 
-    fun imageCategories(): Int {
+    fun getImageCategories(): Int {
         return imageCategories
     }
 
