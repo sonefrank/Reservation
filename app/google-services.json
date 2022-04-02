@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1023277062802",
+    "project_id": "reservation-7851e",
+    "storage_bucket": "reservation-7851e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1023277062802:android:dce57bfda59f6f1377a44b",
+        "android_client_info": {
+          "package_name": "com.abibi.reservation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1023277062802-131iv5dks494p0al3h6hr5519e9nn0hh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4KAxHl86eR2ga29sAVczzyZgwLvqHA7s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1023277062802-131iv5dks494p0al3h6hr5519e9nn0hh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
