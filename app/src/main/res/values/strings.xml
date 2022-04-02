@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Reservation</string>
+    <string name="didn_t_get_qtp_resend">Didn\'t get QTP? <b>Resend</b></string>
 </resources>

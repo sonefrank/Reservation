@@ -3,7 +3,9 @@ package com.abibi.reservation
 import adapter.CategoriesAdapter
 import adapter.DestinationAdapter
 import android.annotation.SuppressLint
+import android.content.Intent
 import android.os.Bundle
+import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -61,4 +63,5 @@ class DashbordActivity : AppCompatActivity() {
         recyclerViewDestination!!.layoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
         adapter.notifyDataSetChanged()
     }
+
 }

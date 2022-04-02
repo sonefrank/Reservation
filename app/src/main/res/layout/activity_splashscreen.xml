@@ -83,6 +83,7 @@
         android:layout_height="wrap_content"
         android:backgroundTint="#23a991"
         android:fontFamily="@font/montserrat_alternates"
+        android:onClick="Onclick"
         android:text="Travel Now"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
